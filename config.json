@@ -1,0 +1,11 @@
+﻿{
+	"token":"BOT-TOKEN",
+	"server_id": "SERVER_ID",
+	
+	"baylee_trigger": "baylee",
+
+	"chatid_news": "CHANNEL_ID_TO_POST_NEWS",
+	"chatid_events": "CHANNEL_ID_TO_POST_EVENTS",
+	
+	"chatid_baylee_research": "CHANNEL_ID_FOR_ADMIN_COMMANDS"
+}

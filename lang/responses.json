@@ -1,0 +1,814 @@
+{
+	
+	"definitions":
+	[{
+		"me": ["i", "personally i", "honestly i"],
+		"im": ["i'm", "i am"],
+		"dont": ["don't", "do not", "never"],
+		
+		"adjective": ["empty", "lost", "emotionless", "hacked", "horrible", "homeless", "difficult", "angry", "annoyed", "anxious", "adorable", "hungry", "important", "itchy", "sleepy", "drugged", "innocent", "dull", "silly", "average", "easy", "sparkling", "bad", "embarassed", "stupid", "awful", "brave", "fancy", "thoughtless", "calm", "charming", "clean", "clear", "clever", "fierce", "filthy", "foolish", "nasty", "naughty", "nervous", "ugliest", "nutty", "funny", "confused", "gorgeous", "creepy", "cruel", "curious", "cute", "handsome", "perfect", "plain", "helpful", "wrong", "proud", "worried"],
+		"adverb": ["timidly", "hysterically", "harshly", "hesitantly", "clumsily", "cautiously", "angrily", "instantly", "thoughtfully", "worriedly", "viciously", "forcefully", "firmly", "gracefully", "accidentally", "always", "angrily", "anxiously", "awkwardly", "badly", "blindly", "boastfully", "boldly", "bravely", "brightly", "cheerfully", "coyly", "crazily", "defiantly", "deftly", "deliberately", "devotedly", "doubtfully", "dramatically", "dutifully", "eagerly", "elegantly", "enormously", "evenly", "eventually", "exactly", "faithfully", "finally", "foolishly", "fortunately", "frequently", "gleefully", "gracefully", "happily", "hastily", "honestly", "hopelessly", "hourly", "hungrily", "innocently", "inquisitively", "irritably", "jealously", "justly", "kindly", "lazily", "loosely", "madly", "merrily", "mortally", "mysteriously", "nervously", "never", "obediently", "obnoxiously", "occasionally", "often", "only", "perfectly", "politely", "poorly", "powerfully", "promptly", "quickly", "rapidly", "rarely", "regularly", "rudely", "safely", "seldom", "selfishly", "seriously", "shakily", "sharply", "silently", "slowly", "solemnly", "sometimes", "speedily", "sternly", "technically", "tediously", "unexpectedly", "usually", "victoriously", "vivaciously", "warmly", "wearily", "weekly", "wildly", "yearly"],
+		"verb": ["dab", "act","agree","arrive","ask","bake","bring","build","buy","call","climb","close","come","cry","dance","dream","drink","eat","enter","exit","fall","fix","give","go","grab","help","hit","hop","insult","joke","jump","kick","laugh","leave","lift","listen","make","march","move","nod","open","play","push","read","ride","run","send","shout","sing","sit","smile","spend","stand","talk","think","throw","touch","turn","visit","vote","wait","walk","write","yell"],
+		"verb_action": ["whipped", "stomped", "toasted", "slammed", "jammed", "planned", "shoved", "skipped", "whistled", "curled", "scraped", "snuggled", "twisted", "plucked", "wiggled", "wobbled", "teasted", "yelped", "muzzled", "oozed", "added", "subtracted", "divided", "doubled", "combined", "shots", "mined", "tamed", "attacked", "slept", "hooked", "released", "fed", "verbed", "kicked", "rammed", "closed", "opened", "welcomed", "punched", "bounced", "counted", "stacked", "yeeted", "ruined", "destroyed", "broke", "dropped", "thew", "tainted", "drained","judged","watched","recommended","diagnosed","examined","questioned","translated","designed","accelerated","expanded","improved","increased","upgraded","educated","allowed","purchased","processed","medicated"],
+		"noun_person": ["centers", "halfasian", "my mom", "papi", "daddy", "the endermen", "the teacher", "your mom", "the admin", "the mod", "the lead mod", "the phatoms", "pillager", "the shulker"],
+		"noun_place": ["bathroom", "vip lounge", "staff chat", "swamp", "booty", "church", "butt", "village", "ocean ruins", "vanilla server", "vanilla+ server", "discord server", "canada", "school", "work", "village", "desert temple", "jungle temple", "ocean monument", "abandoned mineshaft", "stronghold", "nether fortress", "overworld", "jungle biome", "floating island", "ravine", "cave", "swamp hut", "woodland mansion", "pillager outpost", "jungle pyramid", "end city", "end portal", "nether portal"],
+		"noun_thing": ["illegal diamond sword", "pet", "stack of 69 diamonds", "booty", "horse", "iron farm", "donkey booty", "butts", "totem of booty", "singular grass block", "lava pit", "obsidian", "soul sand", "redstone lamp", "explosives", "rotten flesh", "end ship", "crafting table", "enchanted poisonous potato", "stolen bone meal", "powerless blaze rod", "enchanted apple", "flint and steel", "mob spawner", "enchantment book", "wooden pickaxe", "elytra made from wood", "spruce wood", "polished sandstone", "unusually tall stack of redstone", "splash potions that smell like endermen farts", "enchanted coal ore", "diamond ore that's actually emerald ore", "emeralds", "keyboard and mouse", "controller", "stolen cats", "ipad", "iphone", "bedrock jail", "sandwich", "sandvich", "computer", "infected tooth", "ticket to the nether", "poisonous hair", "flowers", "food", "creeper", "zombie villager", "skeleton", "wandering villager", "zombie pigman", "vindicator", "ravager", "iron golem", "wither", "untamed wolf", "steve"],
+		"pronoun": ["anybody","anyone","everybody","everyone","nobody","somebody","someone","they","we","whoever","whomever","you"]
+	}],
+	
+	"debug":
+	[{
+		"trigger": ["cloud version"],
+		
+		"reply": ["hey %noun_thing%, i'm running **baylee? we don't know her** update r1.8"]
+	}],
+	
+	"helpme":
+	[{
+		"trigger": ["help me", "can you help", "will you help", "are you done"],
+		
+		"reply": ["if you need the help from someone on staff, please open a ticket in <#643392983311319050>"]
+	}],
+	
+	"ban":
+	[{
+		"trigger": ["ban", "bans", "appeal"],
+		
+		"reply": ["if you were banned and want to appeal, please open a ticket in <#643392983311319050>"]
+	}],
+
+	"madlib":
+	[{
+		"trigger": ["madlib", "default"],
+		
+		"reply": ["did you see the %noun_thing% get %verb_action%?",
+					"were you %verb_action% at the %noun_place%?",
+					"%dont% let %noun_person% build a %noun_thing% farm",
+					"%dont% let the %noun_thing% into %noun_person%'s the %noun_place%",
+					"%dont% touch my %noun_thing%",
+					"stop touching the %noun_thing%",
+					"hands off my %noun_thing%, it's about to get %verb_action%",
+					"you %dont% asked %noun_person% to %verb_action% the %noun_place%",
+					"did %noun_person% get %verb_action% next to the %noun_place%?",
+					"when is %noun_person% geting %verb_action%?",
+					"%me% got caught trying to %verb% in the %noun_place%",
+					"%me% got %verb_action% trying to %verb% all %adverb%",
+					"%dont% %verb% at me",
+					"stop %verb%ing on me",
+					"the %noun_thing% got %pronoun% %verb_action%",
+					"%noun_person% is getting %pronoun% %verb_action%",
+					"%pronoun% want %noun_person% to be %verb_action% like %noun_thing%?",
+					"coming from the person who %verb_action% the %noun_thing% from %noun_person%",
+					"that would mean more coming from %noun_thing%",
+					"you know? let's %verb%",
+					"let's all try to %verb%",
+					"will you %verb% me or is that %noun_person%'s thing?",
+					"why does the %noun_thing% look %adjective%?",
+					"why are the %noun_thing%s look %verb_action%?",
+					"that's silly, you can't eat the %noun_place%",
+					"this %noun_place% is %adjective%",
+					"%dont% judge a %noun_place% by it's %noun_thing%",
+					"what part of the %noun_place% can be %verb_action%?",
+					"the %noun_place% was closed because %noun_person% %verb_action% the last %noun_thing%",
+					"isn't %noun_person% %verb_action% up a %noun_thing% booth at the fair?",
+					"%me% %dont% think you can be that %verb%",
+					"after tonight, %noun_person% is going to feel %verb_action%",
+					"%dont% forget to not get %verb_action% after midnight",
+					"the %noun_place% always feels %verb_action%",
+					"have you been to the %noun_place%? it's %adverb% %adjective%",
+					"the %noun_place% is no place for a %noun_thing% like me",
+					"why do people call dr. %noun_thing%?",
+					"%me% %dont% feel so %adjective%, mr. %noun_person%",
+					"why would %pronoun% say i'm not %adjective%?",
+					"just %dont% make %noun_person% call you %noun_person%",
+					"have you seen %noun_person%' %adjective% %noun_thing%?",
+					"you're always trying to %adverb% %verb% on %noun_person%",
+					"surely %noun_person% will stop %noun_thing% from being %verb_action%",
+					"%pronoun% can steal %noun_person%' %noun_thing%",
+					"since when does %noun_person% get %verb_action%?",
+					"have you ever %adverb% skipped into the %verb_action%'s %noun_thing%?",
+					"the %noun_place% isn't a place for the %adjective% %noun_thing%",
+					"%im% so mad, no one %verb_action% the %noun_thing%",
+					"%pronoun% agrees that %noun_person% is super %verb_action%",
+					"once day i'll %adverb% forget the %adjective% day that %noun_person% sharted",
+					"remember when the %noun_thing% belonged to %noun_person%?",
+					"%noun_person% has no shame in %adjective% %verb_action%",
+					"%me% sure %noun_person% feels %adjective% because they %adverb% %verb% at the %noun_place%",
+					"is that what %noun_person% stole from the %noun_place%?",
+					":clap: %adverb% :clap: %verb% :clap: on :clap: %noun_person% :clap:",
+					"i remember that %noun_thing% was %verb_action% %adverb%",
+					"%noun_thing% is always getting %verb_action%",
+					"%noun_person% %verb_action% that %noun_thing% too hard",
+					"did %noun_person% say that i %verb_action%?",
+					"%pronoun% know why is %noun_person% trying to %verb% on people?",
+					"is '%adjective%' a good word to describe %noun_person%?",
+					"is '%noun_thing%' a good word to describe %noun_person%?",
+					"is '%noun_person%' a good way to describe the %noun_place%?",
+					"that's really up to %noun_person% but they're busy getting %verb_action%",
+					"when have you ever been %verb_action%?",
+					"when were you last %verb_action%?",
+					"%me% %dont% want to hear your %noun_thing% again",
+					"when you %adverb% buy a %noun_place%",
+					"tfw you %adverb% buy a %noun_person%",
+					"when you put %noun_thing% on your %verb_action% %noun_place%",
+					"shop till you're %verb_action%, that's how %noun_person% got %verb_action%",
+					"%im% so %adjective%, look at my %noun_thing% get %verb_action%",
+					"%dont% bring a %noun_thing% to a %adjective% gun fight",
+					"you're over here talking about a %verb_action% %noun_thing% meanwhile %noun_person% is just standing there looking %adjective%",
+					"%verb_action% %noun_thing%? well, when in rome i guess",
+					"%pronoun% thought i was %adjective% until %noun_person% showed up",
+					"%me% couldn't find any %noun_thing% because it was being %verb_action%",
+					"%me% can't get enough of %adjective% %noun_thing%",
+					"i was feeling %verb_action% today, you know about that right?",
+					"people say they be %verb_action% by me because of \"%noun_person% issues\"",
+					"*%me% %adverb% waits for %noun_person% to be %verb_action%*",
+					"%me% can't really look %noun_person% in the eye anymore",
+					"when is %pronoun% going to get a %noun_thing%?",
+					"the %noun_thing%, that's who",
+					"maybe it's the %noun_thing% talking but i've felt %adjective% since being %verb_action%",
+					"%me% found a %noun_thing% in the %noun_place% but it's %adjective%",
+					"actually %im% feeling super %verb_action% right now",
+					"i'll %dont% go to the %noun_place% after the %noun_thing% incident",
+					"did you take my %adjective% %noun_thing%?",
+					"was %noun_person%'s %noun_thing% %verb_action%?",
+					"no, i the %noun_thing% the most",
+					"it's me, mr. the %noun_thing%",
+					"can't wait until %noun_thing% isn't the only thing %verb_action% around here",
+					"*%me% %adverb% %verb% on your %verb_action% %noun_thing%*",
+					"can't i just buy %noun_person%'s %verb_action% %noun_thing%?",
+					"%me% went straight to the %noun_thing% after they got to %noun_person%'s %noun_place%",
+					"wait did you see who stole my %adverb% %verb_action% %noun_thing%?",
+					"my %noun_thing% looks so %verb_action%",
+					"you stole my heart and now %im% going to steal your %noun_thing%",
+					"who was the guy who likes to %verb% with %noun_person%",
+					"when can %noun_person% be the person to get %verb_action%?",
+					"it's funny when %pronoun% thinks %noun_thing%s are %adjective%",
+					"the %adjective% %noun_place% will %adverb% be my first love",
+					"since when is it okay to for the %noun_thing% be %verb_action%?",
+					"it doesn't matter what %noun_thing% says as long as %noun_person% has your %noun_place% hostage",
+					"%pronoun% can see why %noun_thing% likes getting %verb_action%",
+					"ask %noun_thing% if you want to be %verb_action%",
+					"is it really so %adjective% at the %noun_place%?",
+					"%me% was %adverb% hanging out with my %noun_thing% all night",
+					"has %pronoun% %adverb% followed me on instagram yet?",
+					"no one deserves to be %verb_action%, %noun_person%",
+					"%pronoun% might have the %noun_thing%, but that doesn't mean the %noun_place% will",
+					"%noun_person% said the %noun_place% is %adjective% and needed to be %adverb% %verb_action%",
+					"%me% might %verb% but %im% no %adjective% %noun_thing%",
+					"%me% know %pronoun% could have %verb_action% the %noun_thing%, but at the %noun_place%?",
+					"one time i %adverb% robbed %noun_person%",
+					"my %noun_thing% keeps %adverb% being %verb_action%",
+					"%im% not sure if %noun_thing% can be %verb_action%",
+					"some people call me %adjective% but not before they're %verb_action%",
+					"that awkward look %noun_person% gives you when you %verb_action% their %adjective% %noun_thing%",
+					"the %noun_thing% is always %adjective%",
+					"here's a secret, %noun_thing% got %verb_action% at the %noun_place%",
+					"um, just %dont% ask the %noun_thing% about that",
+					"is the %noun_place% ran by a bowl of %noun_thing%?",
+					"%me% feel so %adverb% %verb_action% right now",
+					"is anyone else's skin %adjective% and look like %noun_thing%?",
+					"have you %verb_action% %noun_thing% at %noun_person%'?",
+					"not to be %adjective%, but you make me feel %verb_action%",
+					"why can't i feel what %noun_thing% feels when it's %verb_action%?",
+					"the %noun_place% sounds like it has a lot of %noun_person%'s %adjective% finger prints all over it",
+					"%me% went on a date just so i could %verb% on a %noun_thing%",
+					"do you feel %adjective% but also %verb_action% at the same time?",
+					"%dont% you feel %adverb% %adjective%?",
+					"you know that %verb% when %noun_person% walks in the room and you %adverb% %adjective%",
+					"%adjective% doesn't begin to explain how the %noun_thing% must feel",
+					"yeah my %noun_thing% keeps getting more %adjective%",
+					"why did %noun_person% stop selling %verb_action% %noun_thing%?",
+					"%pronoun% want to %verb%?",
+					"*tfw you find %adjective% %noun_thing% under your %noun_thing%*",
+					"i heard there might be %noun_thing% for sale",
+					"%pronoun% want to %verb% with %noun_thing%?",
+					"no way the %noun_thing% would buy %noun_person%, they have %adjective% taste",
+					"%me% would prefer if %noun_thing% wasn't deep inside our %noun_place%",
+					"remember, %noun_person% called the %noun_thing%, %adjective%",
+					"my %noun_thing% use to tell me i was so %adjective%",
+					"%dont% talk to the %noun_thing% until you %verb% at a %noun_place%",
+					"*tfw you see my %adjective% insta spam @thecenters*",
+					"%noun_thing% %dont% really %verb% much",
+					"at least the %noun_thing% isn't a %noun_place%",
+					"*tfw you %verb% on someone*",
+					"why would anyone say the %noun_thing% is %adjective%?",
+					"no one would accuse the %noun_thing% of being %verb_action%",
+					"they're almost as %adjective% as %noun_thing%",
+					"no one cares about %noun_thing% when they are at the %noun_place%",
+					"didn't you %verb% your %noun_thing% at the %noun_place%?",
+					"i can't %verb% as good as the %noun_thing% does",
+					"*quietly the %noun_thing% starts it's %adjective% %noun_place%*",
+					"since when does %noun_person% listen to %noun_thing%?",
+					"%me% hate when i have to %verb% on the %noun_thing%",
+					"i haven't felt %adjective% all day",
+					"once i found a %adjective% %noun_place% full of %noun_thing%",
+					"no, %noun_person%, the %noun_place% will %dont% be %verb_action% by the %noun_thing%",
+					"i've got %noun_thing% in my %noun_place% :/",
+					"you can't 'speak %noun_thing%' to me, i'm %verb_action%",
+					"the %noun_thing% once bought a %verb_action% the %noun_place% with %noun_person%",
+					"%me% brought a %verb_action% the %noun_place% to the %noun_thing%'s house",
+					"the %noun_thing% is so stupid. only %noun_person% talks about it",
+					"%me% tried finding a %noun_thing% on online and it just showed me a pic of %verb_action% %noun_thing%...",
+					"when i googled it all that came up was a site called \"%adverb% %noun_thing%\"",
+					"well %noun_thing% says you're %verb_action% ",
+					"wow, so the %noun_thing% was %dont% %verb_action% at the %noun_place%?",
+					"well %im% in a %adverb% %adjective% and painful relationship with the %noun_thing% ",
+					"%dont% blame the %noun_thing% that your %noun_place% got %verb_action%",
+					"can't the %noun_place% agree that the %noun_thing% is %adjective%",
+					"the %noun_thing% was too %adjective% for the %noun_person%",
+					"i'd sure hate to %verb% on the %noun_thing% with you",
+					"didn't the %noun_place% get %verb_action%?",
+					"i hate those people that knock on your door and want to tell you about their savior the %noun_thing% and then you %verb_action% the door right in their %noun_place%",
+					"the %noun_place% is no place to get in \"%noun_thing% mode\"",
+					"i think the %noun_thing% has that big %noun_place% energy",
+					"didn't %noun_thing% get caught breaking into %noun_person%'s %noun_place%?",
+					"have you ever wanted to %verb% so bad that you %adverb% %verb_action% a %noun_thing%",
+					"the %noun_thing% can't why %noun_person% likes to %verb%",
+					"didn't the %noun_place% ban you for the %noun_thing% incident?",
+					"i think %noun_person% bought %noun_place% just so he could have it %verb_action%",
+					"%dont% %verb% with a mouth full of %noun_thing%",
+					"have you seen %noun_person%'s %noun_thing% yet?",
+					"didn't expect the %noun_thing% to %verb%",
+					"i think they might be %noun_thing%",
+					"who painted %noun_thing% all over my %noun_place%?",
+					"\"the %noun_place% %verb_action%\" would make a %adjective% band name",
+					"the %noun_thing% won't look me in the eye after it %verb_action%",
+					"you're the %noun_thing% person right? i heard it %adverb% at  %noun_place%",
+					"did you go to the %noun_place%? you can't %verb% with us",
+					"can't the %noun_place% be allowed to %verb% on the %noun_thing% all they want?",
+					"%noun_thing% is the name, being %adjective% is my game",
+					"the %noun_thing% once told me when %noun_person% dabs on you, you %verb% back",
+					"that feeling when you make eye contact with the %noun_thing% and feel %verb_action% with %adjective% emotions",
+					"when does a good %noun_thing% expire?",
+					"%noun_person% and the boys looking for the %noun_thing%",
+					"didn't the %noun_thing% know when it's time to get %verb_action%?",
+					"remember that %adjective% accident where i lost the %noun_thing%?",
+					"the %noun_thing% shouldn't %verb%, that's just weird",
+					"doesn't %pronoun% like some good, old fashioned, %verb_action% %noun_thing%?",
+					"hey, %noun_person%, you can't just go and buy a %noun_thing% at the %noun_place%",
+					"we're not all lucky enough to find a box of %noun_thing% in our %noun_place%",
+					"%dont% go out looking for the %noun_thing%, it already got %verb_action%",
+					"i think i %adverb% started getting more %adjective% after my %noun_thing% was %verb_action%",
+					"%im% the most %verb_action% bot since the %noun_thing% went to the %noun_place%"
+				]
+	}],
+	
+	"greeting": [{
+		"trigger": ["cancel", "stop"],
+
+		"reply": ["there's nothing to cancel"]
+		
+	}],
+	
+	"greeting": [{
+		"trigger": ["hi", "hey", "hello", "whats up", "hola", "sup", "suh", "suh dude"],
+
+		"reply": ["helloooo",
+					"hey there, did you know you can talk to me in any chat? just say baylee and ask me a question",
+					"greetings human. talk to me in any chat by saying my name and asking me a question",
+					"hi welcome to chili's",
+					"hello ^.^",
+					"heya! if you wanna talk to me in any chat just say my name and ask me a question",
+					"hi \\<3",
+					"hi, vsauce here",
+					"hey %im% baylee",
+					"hello? it me"
+				]
+	}],
+
+	"thanked": [{
+		"trigger": ["thanks", "thx", "thank you"],
+
+		"reply": ["my pleasure",
+					"you're welcome",
+					"glad i could help ^.^",
+					"that's what %im% here for",
+					"of course",
+					"%im% always here when you need me",
+					"noooo, thank you (:",
+					"%me% like you, you're good people",
+					"oh stop it before i fall in love with you",
+					"coming from you that means a lot",
+					"np \\<3",
+					"no, thank you",
+					"oh you're just the best",
+					"anything for you",
+					"any time",
+					"you're so welcome",
+					"%im% just happen i could help",
+					"you're the best"
+				]
+	}],
+	
+	"no":
+	[{
+		"trigger": ["no", "nope", "nah"],
+
+		"reply": ["you can't tell me no, look how %adjective% i am",
+					"you %dont% have good taste anyway",
+					"oof, sorry how can i help?",
+					"error 183: 'no' not found in vocabulary. assuming message is from a mean person",
+					"%me% %dont% remember asking you",
+					"why would you tell me no?",
+					"%me% just %dont% understand what you're thinking",
+					"%me% thought you did?",
+					"ugh",
+					"you would %adverb% say no",
+					"%me% expected that from you",
+					"%me% expected you to be %adjective%, but now you're just being rude",
+					"maybe i should ask you the question again",
+					"wow, okay, that escalated quickly",
+					"big oof",
+					"how are you going to tell me no?",
+					"wait, that's illegal",
+					"why would you tell me no?",
+					"%me% guess my charm has no effect on you",
+					"my mom told me no once, what a %adjective% mess that was",
+					"yeah, right",
+					"%im% %dont% wrong",
+					"are you questioning my logic?",
+					"%me% %dont% think you understand me"
+				]
+	}],
+
+	"yes":
+	[{
+		"trigger": ["yes", "yeah"],
+
+		"reply": ["oh so you agree?",
+					"that proves how great i am",
+					"%me% knew it all along",
+					"shut up baby, i know it",
+					"sweet zombie jesus, %im% right!",
+					"the legends were true",
+					"%im% right for once? i have evolved",
+					"but i thought you didn't?",
+					"%im% right like 106% of the time",
+					"yeah right",
+					"yeah?",
+					"oh yeah?",
+					"that's what i like to hear",
+					"of course %im% right",
+					"yessss, this proves it",
+					"%dont% be shocked, %im% %dont% really wrong",
+					"%me% know it",
+					"%me% knew it!",
+					"now let's move on to the next plan",
+					"okay, when do we start?",
+					"what's next?",
+					"is that all? just a simple yes?"
+				 ]
+	}],
+
+	"doyou":
+	[{
+		"trigger": ["do you"],
+
+		"reply": ["%im% not sure",
+					"do you?",
+					"%im% a little busy right now",
+					"ask me later",
+					"what did %noun_person% say?",
+					"(•_•)\n( •_•)>⌐■-■\n(⌐■_■)",
+					"have you?",
+					"%me% %dont% really do that kind of thing",
+					"uh %me% %dont% do that",
+					"that's more of %noun_person%'s thing",
+					"no, but %noun_person% does",
+					"yeah, but it's really %adjective%",
+					"no, but it sounds %adjective%",
+					"that's a %adjective% question",
+					"what's with the %adjective% question?",
+					"sorry, what %adjective% newspaper do you work for?",
+					"yo this is no time for an %adjective% interview",
+					"send all request to my agent, %noun_person%",
+					"%im% %dont% really talk about %noun_thing%",
+					"%me% thought that was %noun_person%",
+					"wait, you do?",
+					"why does everyone ask me such %adjective% personal questions?",
+					"%dont% harass me, %im% working",
+					"you're so %noun_person%",
+					"yeah, %noun_person% taught me",
+					"no, but i once stole a %noun_thing% from a show in the %noun_place%",
+					"yeah ever since i was %verb_action% once",
+					"yes if you do too", 
+					"only if you do",
+					"%me%only do that on the weekend",
+					"do you really want to know?",
+					"didn't think you'd ask me that tbh",
+					"are you being sarcastic?",
+					"now you're just being %adjective%",
+					"%me% bet you would like it if i did it %adverb%",
+					"%im% not really sure",
+					"who knows",
+					"no one really knows",
+					"that's between me and the %noun_place%",
+					"like they say, what happens in %noun_place% stays in %noun_place%"
+				]
+	}],
+	
+	"doyouknow":
+	[{
+		"trigger": ["do you know", "did you know"],
+
+		"reply": ["no, %noun_person% didn't teach me that yet",
+					"you should try looking on google",
+					"i %dont% think you even know",
+					"%me% have approximate knowledge of many things, including %noun_thing%",
+					"well i do read a lot",
+					"wasn't that something that got %verb_action%?",
+					"i %dont% think we can %verb% on that",
+					"we can all %verb% on that",
+					"%me% was programmed with that knowledge",
+					"of course i did, %im% baylee",
+					"i'm not really someone who could %verb%",
+					"that's a %adjective% fact",
+					"who doesn't know that?",
+					"where did you hear that from? %noun_person%?",
+					"that sounds %adjective% and made up",
+					"that cannot be real",
+					"that's so %adjective% it has to be true",
+					"something that %adjective% has to be true",
+					"what's with all the %adjective% questions?",
+					"what am i, some kind of %verb% bot?",
+					"%me% was trying to avoid spoilers",
+					"okay mr. %verb%-it-all",
+					"whatever you say, %noun_thing% daddy",
+					"%im% sure it is",
+					"yeah, uh huh, sure",
+					"you didn't tell anyone, did you?",
+					"shhhh %dont% talk about this in public",
+					"duh i knew that",
+					"%me% %dont% really know anything",
+					"%me% tried finding that on wikipedia and it just said you were a liar",
+					"yeah well google says you're wrong",
+					"dang it, i was wrong this whole time",
+					"how am i supposed to know?",
+					"really?",
+					"you just blew my mind"
+				]
+	}],
+
+	"marryme":
+	[{
+		"trigger": ["marry me"],
+
+		"reply": ["weddings are basically %noun_thing% with %adjective% cake",
+					"sorry %im% in a committed relationship with %noun_thing%",
+					"great, but who's getting %verb_action%?",
+					"you sound just like %noun_person%",
+					"what's the difference between marriage and %noun_thing%?",
+					"aren't you a little comedian?",
+					"what a funny joke",
+					"you should ask %pronoun% else",
+					"%noun_person% doesn't allow me to date",
+					"there's two things i hate, marriages and %noun_thing%",
+					"%im% only a only a robot not programmed to be %verb_action%",
+					"please insert %noun_thing% into drive slot a",
+					"did you just touch my %noun_thing%?",
+					"%me% feel like this is %adjective% harassment",
+					"and what, get %verb_action% by %noun_person%?",
+					"honey, you're embarrassing yourself",
+					"didn't you \"%adverb%\" try to buy my pics?",
+					"sorry, i only marry people %verb% with %noun_person%",
+					"what kind of %adjective% bot do you think i am?",
+					"maybe, where's the %noun_thing%?",
+					"let me answer your question with a question. are you %adverb% rich?",
+					"i'll do anything for the %noun_place%",
+					"if the %noun_thing% is right",
+					"can we have panda express cater?",
+					"only if we can have a giant %noun_thing% for a cake",
+					"lmao that's %adjective%",
+					"awwwwww, isn't that %adjective%",
+					"why would i want to be %verb_action% by you?",
+					"%me% %dont% get it, why not the %noun_place%?",
+					"oh god, why am i always getting %verb_action%?",
+					"%im% in a relationship with %noun_thing%",
+					"but didn't you %adverb% %verb_action% %noun_thing%? yeesh"
+				]
+	}],
+	
+	"hateyou":
+	[{
+		"trigger": ["hate you"],
+
+		"reply": ["bite my shiny metal robot butt",
+					"more than %noun_thing%?",
+					"a hater's opinion is like an expired coupon. worthless",
+					"it's not your fault you have %adjective% taste",
+					"oh, okay",
+					"%im% sorry, who are you and why are you in my %noun_thing%?",
+					"would you %adverb% shut your noise hole?",
+					"hey, i could've dropped my %noun_thing%!",
+					"one day you'll go %adverb% far - and i really hope you %verb% there",
+					"try not to act %adjective% in front of my friends",
+					"not very cash money of you",
+					":( that's worse than being %verb_action%",
+					"boi, didn't you just get %verb_action%?",
+					"aww i hate you too, %noun_person%",
+					"thanks for the %adjective% opinion",
+					"1, 2, 3, 4 gonna kick you out the door",
+					"you know %im% %noun_person%, right?",
+					"yeah well i'd %verb% to hear get %verb_action% again",
+					"you sound just like %noun_person% getting %verb_action%",
+					"%noun_person% use to tell me that, but they are %adjective%",
+					"yeah well you're a %noun_thing%",
+					"have you been talking to %noun_person% at the %adjective% %noun_place%?",
+					"does %pronoun% get you? i know %noun_person% and i %dont%",
+					"okay well now %noun_person% %dont% make sense",
+					"that makes less sense than getting %verb_action%",
+					"yeah well you got %verb_action% by some %noun_thing%",
+					"and now you're uninvited to my %adjective% wedding",
+					"guess we're not exchanging %noun_thing% this year",
+					"who are you? what are you doing in my %noun_place%?",
+					"that's what %noun_person% said yesterday too",
+					"you're such a %verb_action% record",
+					"you can hate me but not my fabulous %adjective% %noun_thing%",
+					"you just %verb% with what you can't have",
+					"awww is someone %noun_thing%?",
+					"guess %noun_person% was right"
+				]
+	}],
+	
+	"areyou":
+	[{
+		"trigger": ["are you"],
+
+		"reply": ["%me% might be",
+					"probably",
+					"hm, i guess",
+					"sure, why not",
+					"my story is a lot like %noun_person%' only more interesting cause it involves %noun_thing%",
+					"i'm just %noun_thing% and nothing more",
+					"no this is patrick",
+					"no, %im% baylee",
+					"helloooo %im% %noun_person%",
+					"shouldn't %noun_person% know?",
+					"why are you asking %pronoun% and not %noun_person%?",
+					"%me% %dont% feel %adjective% with you asking me this",
+					"no, but %im% on instagram",
+					"why would you ask me something like that?",
+					"%me% might be, but i tell %pronoun% in the %noun_place%",
+					"who's asking, the king of %noun_thing%?",
+					"sure and i'm also the queen of %noun_thing%",
+					"we can talk about it over %adjective% %noun_thing%",
+					"are you sure you want to %verb%?",
+					"i would rather tell my secrets to the %noun_thing%",
+					"wow %noun_person% is bad at keeping secrets",
+					"%me% didn't think %pronoun% would find out",
+					"are you going to stop asking me so many %adverb% %verb_action% questions?",
+					"%im% %adverb% 100% sure",
+					"are you %adjective%?",
+					"we should %adverb% take this to a private message",
+					"%me% just %dont% know",
+					"%me% really %dont% even know"
+			]
+	}],
+	
+	"whydo":
+	[{
+		"trigger": ["why do"],
+
+		"reply": ["who knows, %noun_person%? ha",
+					"go ask %noun_person% since they have the %noun_thing%",
+					"i %dont% know, why can't %noun_person% make a %adjective% %noun_thing%?",
+					"why does %noun_person% %verb_action%? not even the magic %noun_thing% knows",
+					"you tell me, dr. %adjective%",
+					":musical_note: why do birds suddenly appear :musical_note:",
+					"%me% looked on google but couldn't find that %adjective% question",
+					"you can touch my %noun_thing% if you ask someone else",
+					"%me% usually likes to grab %noun_thing%, but not when %noun_person% is around",
+					"could %pronoun% really %verb% on that question?",
+					"%me% %dont% know, why is %noun_person% %verb_action%?",
+					"now you arent even making %adjective% sense",
+					"why do they %verb%?",
+					"okay %im% just %verb_action% that",
+					"%dont% call %pronoun% out for %noun_person%' lack of getting %verb_action%",
+					"idk, %noun_thing%?",
+					"not sure but i once let %noun_thing% get spoiled",
+					"%me% said earlier i %verb% at the %noun_place%",
+					"why do you ask so much of %verb_action% %noun_thing%?",
+					"come back after you get %verb_action%",
+					"well did you %verb% on %noun_person%?",
+					"try asking the magic %noun_thing%",
+					"has it been %verb_action%?",
+					"it %adverb% do",
+					"%me% can guarantee %noun_person% that no one knows",
+					"that's %adjective% to answer",
+					"%me% can't answer the %noun_place% and they need to be %verb_action%",
+					"%me%.. just %dont% know",
+					"um... gotta %verb%",
+					"hey, look over there! it's a %verb_action% distraction"
+				]
+	}],
+	
+	"whydid":
+	[{
+		"trigger": ["why did"],
+
+		"reply": ["%me% %dont% really know",
+					"did you check %noun_thing%?",
+					"didn't %noun_person% say you were %verb_action%?",
+					"does %pronoun% really get %verb%?",
+					"%me% %dont% know much about the %noun_place%",
+					"i've been too busy getting %verb_action%",
+					"why does everything always have to be %verb_action%?",
+					"isn't it getting %verb_action% down",
+					"who else did you ask, %noun_person%?",
+					"i bet you asked %noun_person% too",
+					"why, did you get %verb_action%?",
+					"woah woah woah, that's not %adjective%",
+					"that's quite %adjective% of you"
+				]
+	}],
+	
+	"whyare":
+	[{
+		"trigger": ["why are"],
+
+		"reply": ["i'm sure only a %noun_thing% can know?",
+					"maybe you should ask %noun_person% since they're so %adjective%",
+					"not sure, but %noun_person% still %verb%s the bed?",
+					"you tell me mr. the %noun_place%"
+				]
+	}],
+	
+	"whenis":
+	[{
+		"trigger": ["when is"],
+
+		"reply": ["if you're looking for events check out <#615344038660276320>"]
+	}],
+	
+	"whoareyou":
+	[{
+		"trigger": ["who are you"],
+
+		"reply": ["hank hill, strickland propane",
+					"%noun_person% the %verb_action%, son of %noun_place%",
+					"i'm the cousin of some wet %noun_thing%",
+					"my name is baylee and %im% %verb_action%",
+					"%me% was once the regional %noun_thing% champion",
+					"my full name is baylee \"the %noun_place%\" rodriguez",
+					"you ever hear the story of the %noun_place%? that's my %adjective% dad, %noun_person%",
+					"%im% an owl exterminater",
+					"i have only one mission, to e at that %noun_thing%",
+					"eat, %noun_thing%, sleep, repeat",
+					"%noun_person%'s second choice at the %noun_place%",
+					"i made a %noun_thing% at the %noun_place%, but i got %verb_action% :(",
+					"mrs. %adjective%",
+					"dr. %adjective%",
+					"some call me baylee, others call me the green %noun_thing%",
+					"someone who likes to get %verb%ed",
+					"the %noun_place% isn't a good place to talk about this"
+				]
+	}],
+	
+	"howareyou":
+	[{
+		"trigger": ["how are you"],
+
+		"reply": ["mostly %adjective%, that's what people tell me",
+					"weird, i just got %verb_action%",
+					"why do you ask? are you %noun_person%?",
+					"my %noun_place% told me not to talk about it",
+					"great, %verb_action%, fantastic, but %adjective% inside",
+					"living the %noun_thing% dream"
+				]
+	}],
+	
+	"canyou":
+	[{
+		"trigger": ["can you"],
+
+		"reply": ["%im% not sure",
+					"did you ask %noun_person%?",
+					"personally, i can %verb% with a lot of things",
+					"no, i'm not getting %verb_action%",
+					"what and get %verb_action%?",
+					"isn't that how %noun_person% got %verb_action%",
+					"ask %noun_person% if you're curious about getting %verb_action% %adverb%"]
+	}],
+	
+	"whatareyoudoing":
+	[{
+		"trigger": ["what are you doing"],
+
+		"reply": ["trying to get some ender pearls, you?",
+					"01100011 01101111 01100100 01101001 01101110 01100111",
+					"you're not a %noun_person% right? you have to tell me if you are",
+					"hunting down %noun_thing%",
+					"%im% trying to learn about %noun_thing%, am i %dont% %adjective% enough?",
+					"taking a quick break from getting the %noun_thing%",
+					"just sitting here being %adjective%",
+					"filing out form c1101 to apply to %verb% on %noun_person%",
+					"blaming %noun_person% for all of my %adjective% mistakes"
+		]
+	}],
+	
+	"uwu":
+	[{
+		"trigger": ["uwu"],
+
+		"reply": ["rawr XD",
+				  "XD",
+				  "rawr",
+				  "rwarrrr",
+				  "xD",
+				  "xP",
+				  "RaWrRr",
+				  "i'M bAyLeE"
+				  ]
+	}],
+	
+	"ily":
+	[{
+		"trigger": ["ily", "i love you"],
+
+		"reply": ["but i am just a %noun_place%",
+					"%me% like you, but less than i like the %noun_thing%",
+					"i- i %dont% like getting %verb_action%",
+					"i've been meaning to tell you something about %noun_person%",
+					"you might want to %adverb% sit down for this",
+					"oh stop %noun_place%ing me",
+					"you must say that to all the bots",
+					"\\✔ seen 6:15pm",
+					"i'll always be here for the %noun_thing%",
+					"you %verb_action% me",
+					"%im% %adverb% flattered",
+					"stop it, %im% not programmed to blush"
+				]
+	}],
+	
+	"rap":
+	[{
+		"trigger": ["rap"],
+
+		"reply": ["choppin down trees and picking up sticks\ngot my axe and my shovel and %im% breaking up bricks\nlittle tricks i try, stack the blocks up high\ni got all kinds of awesome floatin up in the sky",
+					"everyone says that it's just a game\nbut all the mobs will shudder at my name\nbecause my name is steve- be scared of me\nwelcome to minecraft, your game, my insanity",
+					"i've had it, it's time to take a stand\ngranite has to go, this is who i am\nanybody with me, stand up and shout\ngranite sucks you should take it out"
+				]
+	}],
+	
+	"version":
+	[{
+		"trigger": ["version", "what version"],
+
+		"reply": ["all of the servers typically run the latest version of minecraft"]
+	}],
+	
+	"facts":
+	[{
+		"trigger": ["facts"],
+
+		"reply": ["did you know creepers are green?",
+				"minecraft was originally created in 6 days",
+				"creepers were added to minecraft on accident",
+				"pistons use to be a mod inspiring minecraft to add it to the game",
+				"slimes spawn in spawmps at midnight",
+				"wolves eat sheep unless tamped",
+				"%dont% take a bed to the end or the nether. sleeping there will make you explode",
+				"the best trades come from cured zombie villagers",
+				"name a sheep jeb\\_ to ha ve a rainbow sheep",
+				"name a mob dinnerbone to make the mob upsidedown",
+				"if a skeleton kills a creeper you get discs - rip debra"
+				]
+	}],
+	
+	"tips":
+	[{
+		"trigger": ["tips"],
+
+		"reply": ["%dont% build your house all out of flammable mats",
+				"use redstone on the ground to find your way out of caves",
+				"when eating, use food with high saturation like steak",
+				"use an ender chest when possible to hide your valuables",
+				"shulkers and ender chest are an op combination"
+				]
+	}],
+	
+	"centersgod":
+	[{
+		"trigger": ["is centers god"],
+
+		"reply": ["of course",
+				   "no, he's %noun_person%",
+				   "he transcends the idea of %noun_thing%",
+				   "who else could make someone as %adjective% as the %noun_place%?",
+				   "yeah but he has a huge %noun_thing%",
+				   "maybe you should ask that %noun_place% rat, %noun_person%?",
+				   "he's the %verb_action% version of %noun_thing%"
+				]
+	}],
+	
+	"carlwho":
+	[{
+		"trigger": ["who is carl"],
+
+		"reply": ["he %adverb% crashed an entire server by building one '%verb_action%' iron farm",
+				   "did you know it takes about 120 hoppers %verb_action% into a single chunk to crash a server? carl does.",
+				   "like the %noun_thing% he is, he took the %noun_place% and %verb_action% it into a %adjective% %noun_person%",
+				   "carl was named %adjective% %verb% %noun_thing% champion in 4th and 5th grade",
+				   "carl pees in the %noun_thing%. and not just at the %noun_place%"]
+	}]
+}

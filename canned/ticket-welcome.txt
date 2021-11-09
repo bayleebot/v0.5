@@ -1,0 +1,8 @@
+> :star: Have a problem?
+```apache
+ Quickly get help by providing all the information below
+
+1) Username
+2) Server name
+3) Location of problem
+5) Briefly describe your issue```
